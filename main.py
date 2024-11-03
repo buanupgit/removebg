@@ -41,8 +41,8 @@ st.markdown("""
         /* Header styling */
         h1 {
             text-align: center;
-            margin-bottom: 0.5rem;
-            font-size: clamp(1.5rem, 5vw, 2rem);
+            margin-top: 0.4rem;
+            font-size: clamp(2rem, 1vw, 5rem);
             color: #1f1f1f;
             word-wrap: break-word;
         }
@@ -51,6 +51,7 @@ st.markdown("""
             text-align: center;
             color: #666;
             margin-bottom: 2rem;
+            margin-top: -0.8rem;
             font-size: clamp(0.875rem, 3vw, 1rem);
             word-wrap: break-word;
         }
@@ -77,6 +78,7 @@ st.markdown("""
             transition: all 0.3s ease;
             width: 100%;
             box-sizing: border-box;
+            
         }
         
         /* Image preview container */
@@ -124,12 +126,13 @@ st.markdown("""
         
         /* Footer styling */
         .footer {
+            
             text-align: center;
-            padding: 1rem;
+            padding: 0.5rem;
             background-color: #f8f9fa;
             border-radius: 10px;
-            margin-top: 1rem;
-            font-size: clamp(0.75rem, 2.5vw, 0.8rem);
+            margin-top: 10rem;
+            font-size: clamp(0.5rem, 1.5vw, 0.7rem);
             color: #666;
             width: 100%;
             box-sizing: border-box;
@@ -137,7 +140,7 @@ st.markdown("""
         
         /* Streamlit specific fixes */
         .block-container {
-            max-width: 100%;
+            max-width: 60%;
             padding-left: 1rem;
             padding-right: 1rem;
             padding-top: 1rem;
