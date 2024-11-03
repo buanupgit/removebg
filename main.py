@@ -27,6 +27,7 @@ st.markdown("""
             overflow-x: hidden;
             margin: 0;
             padding: 0;
+            font-size:16px;
         }
         
         /* Container styling */
