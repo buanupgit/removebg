@@ -169,6 +169,17 @@ st.markdown("""
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
             }
+             /* Header styling */
+        h1 {
+            
+            font-size: clamp(1rem, 1.5rem, 2rem);
+            
+        }
+        
+        .subtitle {
+            font-size: 12px;
+            word-wrap: break-word;
+        }
             
             .upload-area {
                 padding: 0.75rem;
