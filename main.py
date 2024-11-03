@@ -77,7 +77,7 @@ st.markdown("""
             text-align: center;
             background-color: #f8f9fa;
             transition: all 0.3s ease;
-            width: 100%;
+            width: 90%;
             box-sizing: border-box;
             
         }
@@ -88,12 +88,12 @@ st.markdown("""
             border-radius: 10px;
             overflow: hidden;
             background-color: #f8f9fa;
-            max-width: 100%;
+            max-width: 90%;
         }
         
         /* Image styling */
         img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
         }
         
@@ -117,7 +117,7 @@ st.markdown("""
             padding: 0.5rem;
             margin: 0.5rem 0;
             border-radius: 10px;
-            max-width: 100%;
+            max-width: 60%;
         }
         
         /* Progress bar container */
