@@ -164,6 +164,8 @@ st.markdown("""
         
         @media (max-width: 768px) {
             .block-container {
+            
+                max-width: 100%;
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
             }
